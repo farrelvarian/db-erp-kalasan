@@ -6,7 +6,7 @@
     "permission": {
       "Dashboard": {},
       "Master": {
-        "isParent":true
+        "isParent":true,
         "Produk": [
           "c",
           "u",
