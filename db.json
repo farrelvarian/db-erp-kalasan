@@ -1,138 +1,192 @@
 {
-    "project": [{
-            "id": 1,
-            "title": "Card title1",
-            "location": "Bojongsan, Depok, Jawa Barat",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 2,
-            "title": "Card title2",
-            "location": "Bojongsan, Depok, Jawa Barat",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 3,
-            "title": "Card title3",
-            "location": "Bojongsan, Depok, Jawa Barat",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 4,
-            "title": "Card title4",
-            "location": "Bojongsan, Depok, Jawa Barat",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 5,
-            "title": "Card title5",
-            "location": "Bojongsan, Depok, Jawa Barat",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 6,
-            "title": "Card title6",
-            "location": "Bojongsan, Depok, Jawa Barat",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 7,
-            "title": "Card title7",
-            "location": "Bojongsan, Depok, Jawa Barat",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 8,
-            "title": "Card title8",
-            "location": "Bojongsan, Depok, Jawa Barat",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 9,
-            "title": "Card title9",
-            "location": "Bojongsan, Depok, Jawa Barat",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 10,
-            "title": "Card title10",
-            "location": "Bojongsan, Depok, Jawa Barat",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 11,
-            "title": "Card title11",
-            "location": "Semarang",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 12,
-            "title": "Card title12",
-            "location": "Semarang",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 13,
-            "title": "Card title13",
-            "location": "Semarang",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 14,
-            "title": "Card title14",
-            "location": "Semarang",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        },
-        {
-            "id": 15,
-            "title": "Card title15",
-            "location": "Semarang",
-            "price": "562jt",
-            "type": "residential",
-            "unit": "2 - 3 Bedrooms",
-            "sqm": "14 jt"
-        }
-    ]
+  "login":{
+      "name": "farrel varian",
+      "profile": "https://www.pngall.com/wp-content/uploads/5/Profile-PNG-Clipart.png",
+      "role": "owner",
+      "permission": {
+          permission: {
+Dashboard: { },
+Master: {
+Produk: [
+1,
+2,
+3
+],
+Supplier: [
+1,
+2,
+3
+],
+Outlet: [
+4,
+5
+],
+Satuan: [
+1,
+2,
+3
+],
+Tipe-Barang: [
+1,
+2,
+3
+],
+Gudang: [
+1,
+2,
+3
+],
+Pegawai: [
+1,
+2,
+3
+],
+Jabatan: [
+1,
+2,
+3
+],
+Akun: [
+1,
+2,
+3
+]
+},
+Pembelian: {
+Permintaan-Pembelian: [
+1,
+2,
+3
+],
+Order-Pembelian: [
+1,
+2,
+3
+],
+Penerimaan-Pembelian: [
+1,
+2,
+3
+],
+Pembayaran-Supplier: [
+1,
+2,
+3
+],
+Retur-Pembelian: [
+1,
+2,
+3
+],
+Laporan-Pembelian: [
+1,
+2,
+3
+]
+},
+Penjualan: {
+Order-Penjualan: [
+1,
+2,
+3
+],
+Menu-Penjualan: [
+4,
+5
+],
+Retur-Penjualan: [
+6,
+7,
+8
+],
+Kitchen: [
+9,
+10
+],
+Laporan: [
+11,
+12
+]
+},
+Inventory: {
+Lihat-Stok: [
+1,
+2,
+3
+],
+Permintaan-Barang: [
+4,
+5
+],
+Pengiriman: [
+6,
+7,
+8
+],
+Stok-Masuk-Dan-Keluar: [
+9,
+10
+],
+Transfer-Stok: [
+11,
+12
+]
+},
+Akuntansi: {
+Jurnal-Umum: [
+1,
+2,
+3
+],
+Buku-Besar: [
+4,
+5
+],
+Laporan: [
+6,
+7,
+8
+],
+Pengaturan-Akun: [
+9,
+10
+]
+},
+Personalia: {
+Absensi: [
+1,
+2,
+3
+],
+Penggajian: [
+4,
+5
+]
+},
+Audit-Trail: { },
+Pengaturan: {
+Manajemen-Pengguna: [
+1,
+2,
+3
+],
+Manajemen-Menu: [
+4,
+5
+],
+Manajemen-Hak-Akses: [
+6,
+7,
+8
+],
+Manajemen-Role: [
+9,
+10
+],
+Data-Perusahaan: [
+10,
+11
+]
+}
+}
 }
