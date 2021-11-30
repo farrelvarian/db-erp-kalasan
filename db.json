@@ -9,7 +9,7 @@
         "url": "/dashboard",
         "icon": "carbon:dashboard",
         "isParent": true,
-        "child": {}
+        "child": []
       },
       {
         "name": "Master",
