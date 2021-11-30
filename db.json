@@ -3,276 +3,55 @@
     "name": "farrel varian",
     "profile": "https://www.pngall.com/wp-content/uploads/5/Profile-PNG-Clipart.png",
     "role": "owner",
-    "permission": {
-      "Dashboard": {},
-      "Master": {
-        "isParent":true,
-        "Produk": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Supplier": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Outlet": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Satuan": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Tipe-Barang": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Gudang": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Pegawai": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Jabatan": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Akun": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ]
+    "permission": [
+      {
+        "name": "Dashboard",
+        "url": "/dashboard",
+        "icon": "carbon:dashboard",
+        "isParent": true,
+        "child": {}
       },
-      "Pembelian": {
-        "Permintaan-Pembelian": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Order-Pembelian": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Penerimaan-Pembelian": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Pembayaran-Supplier": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Retur-Pembelian": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Laporan-Pembelian": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ]
-      },
-      "Penjualan": {
-        "Order-Penjualan": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Menu-Penjualan": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Retur-Penjualan": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Kitchen": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Laporan": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ]
-      },
-      "Inventory": {
-        "Lihat-Stok": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Permintaan-Barang": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Pengiriman": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Stok-Masuk-Dan-Keluar": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Transfer-Stok": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ]
-      },
-      "Akuntansi": {
-        "Jurnal-Umum": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Buku-Besar": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Laporan": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Pengaturan-Akun": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ]
-      },
-      "Personalia": {
-        "Absensi": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Penggajian": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ]
-      },
-      "Audit-Trail": {},
-      "Pengaturan": {
-        "Manajemen-Pengguna": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Manajemen-Menu": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Manajemen-Hak-Akses": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Manajemen-Role": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
-        ],
-        "Data-Perusahaan": [
-          "c",
-          "u",
-          "r",
-          "d",
-          "p"
+      {
+        "name": "Master",
+        "url": "",
+        "icon": "fluent:app-folder-24-regular",
+        "isParent": true,
+        "child": [
+          {
+            "name": "Produk",
+            "url": "/master/produk",
+            "permission": [
+              "c",
+              "r",
+              "u",
+              "d",
+              "p"
+            ]
+          },
+          {
+            "name": "Supplier",
+            "url": "/master/suplier",
+            "permission": [
+              "c",
+              "r",
+              "u",
+              "d",
+              "p"
+            ]
+          }, 
+          {
+            "name": "Outlet",
+            "url": "/master/outlet",
+            "permission": [
+              "c",
+              "r",
+              "u",
+              "d",
+              "p"
+            ]
+          }
         ]
       }
-    }
+    ]
   }
 }
